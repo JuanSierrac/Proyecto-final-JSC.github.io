@@ -18,6 +18,11 @@ body, html{
     background-size: cover;
 }
 
+.cont{
+   display: flex;
+   padding: 1rem;
+   color: #fff;
+}
 
 .container {
     width: 80%;
@@ -59,7 +64,7 @@ img{
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-family: cursive;
 }
 
@@ -208,7 +213,7 @@ footer {
 
   .social-links a {
     margin-bottom: 5px;
-    color: #fff;
+    color: #000000;
     font-size: 1.5rem;
     padding: 10px;
   }
