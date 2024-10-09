@@ -1,0 +1,108 @@
+<h2 >Los diversos fritos que ofrecemos: </h2>
+          <h3>CLÁSICOS</h3>
+          <div class="service-grid">
+              <div class="service-card" for="item">
+                  <h3>Deditos</h3>
+                  <ul class="item">
+                    <li>Queso</li>
+                    <li>Salchicha</li>
+                    <li>Bocadillo</li>
+                  </ul>
+                  <p><strong>20 UND</strong></p>
+                  <p><strong>CONGELADOS $13.000</strong></p>
+              </div>
+              <div class="service-card" for="item">
+                  <h3>Empanadas</h3>
+                  <ul class="item" name="item">
+                    <li>Carne</li>
+                    <li>Pollo</li>
+                    <li>Hawaiiana</li>
+                    <li>Espinaca con queso</li>
+                  </ul>
+                  <p><strong>12 UND</strong></p>
+                  <p><strong>CONGELADOS $13.000 </strong></p>
+              </div>
+              <div class="service-card" for="item">
+                  <h3>Otros</h3>
+                  <ul class="item" name="item">
+                    <li>Rollitos de Salchicha</li>
+                  </ul>
+                  <p><strong>24 UND</strong></p>
+                  <p><strong>CONGELADOS $13.000</strong></p>
+              </div>
+          </div>
+      </div>
+  
+    <div class="container">
+        <h2>Los diversos fritos que ofrecemos: </h2>
+        <h3>TÍPICOS</h3>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Empanadas </h3>
+                <ul class="item">
+                    <li>Carne</li>
+                    <li>Pollo</li>
+                    <li>Ranchera</li>
+                </ul>
+                <p><strong>6 UND</strong></p>
+                <p><strong>FRITOS $13.000</strong></p>
+            </div>
+            <div class="service-card">
+                <h3>Arepas </h3>
+                <ul class="item">
+                <li>Carne y queso</li>
+                <li>Pollo y queso</li>
+                <li>Huevo y carne </li>
+                <li>Huevo y pollo</li>
+                <li>Huevo y mariscos</li>
+                <li>Arepa dulce</li>
+                <li>Arepa trifásica</li>
+               </ul>
+                <p><strong>6 UND</strong></p>
+                <p><strong>FRITOS $25.000 </strong></p>
+            </div>
+            <div class="service-card">
+                <h3>Otros</h3>
+                <ul class="item">
+                    <li>Carimañola</li>
+                    <li>Buñuelos</li>
+                    <li>Papa rellena</li>
+                </ul>
+                <p><strong>6 UND</strong></p>
+                <p><strong>FRITOS $13.000</strong></p>
+            </div>
+        </div>
+
+
+
+
+        .services{
+            background-color: burlywood;
+            text-align: center;
+            background-image: url("https://i.pinimg.com/736x/0c/ca/91/0cca91bcf896e937b2117b1e2e5ce29b.jpg");
+            background-repeat: no-repeat;
+            background-size: cover  ;
+        }
+        
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            font-size: 1rem;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            background-image: url("https://i.pinimg.com/736x/0f/0b/1d/0f0b1d33ef7be509ed44754cc467405a.jpg");
+            background-size: cover;
+           
+        }
+        
+        .item{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10%;
+        }
+        
