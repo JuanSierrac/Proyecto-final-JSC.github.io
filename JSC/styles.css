@@ -139,6 +139,10 @@ section {
    margin-left: 100px;
 }
 
+.about-we{
+    color: white;
+}
+
 /* Servicios */
 
 .services{
@@ -156,10 +160,12 @@ section {
 }
 
 .service-card {
-    background-color: #f4f4f4;
+    font-size: 1rem;
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
+    background-color: #f4f4f4;
+   
 }
 
 .item{
