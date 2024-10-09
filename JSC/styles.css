@@ -25,6 +25,13 @@ body, html{
     color: #000000;
 }
 
+.cont{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #000000;
+    display: flex;
+}
 
 /* Menú de navegación */
 nav {
@@ -144,24 +151,26 @@ section {
 }
 
 /* Servicios */
-
-.services{
+  .services{
     background-color: burlywood;
     text-align: center;
     background-image: url("https://i.pinimg.com/736x/0c/ca/91/0cca91bcf896e937b2117b1e2e5ce29b.jpg");
     background-repeat: no-repeat;
-    background-size: cover  ;
-}
+    background-size: cover;          
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+  }
 
 .Menu{
-    width: 50%;
+    width: 100%;
     height: auto;
-   
+    
 }
 
 .Combo{
-    width: 40%;
+    width: 95%;
     height: auto;
+    padding: 1rem;
     
 }
 
