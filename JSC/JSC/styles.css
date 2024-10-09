@@ -3,16 +3,17 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    background: linear-gradient(#e66465, #9198e5);
     height: 100%;
 }
 
 .container {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 h1 {
@@ -40,16 +41,15 @@ input {
     box-sizing: border-box;
 }
 
-button {
+button[type="submit"]{
     width: 100%;
-    padding: 10px;
-    background-color: #3498db;
+    height: 50px;
+    border: 1px solid;
+    background-color: goldenrod;
+    border-radius: 25px;
     color: white;
-    border: none;
-    border-radius: 4px;
+    font-size: 20px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
