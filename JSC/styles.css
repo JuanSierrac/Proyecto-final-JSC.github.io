@@ -59,9 +59,9 @@ nav {
 
 .nav_container {
     align-items: center;
-    padding: 1rem 0;
+    padding: 0 1rem 1rem 1rem;
     background: linear-gradient(#632715, #bab236, #6c4b11);
-    margin: auto;
+    margin: none;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -148,6 +148,14 @@ section {
 
 .about-we{
     color: white;
+    text-align: right;
+    flex: 1;
+    padding-right: 2rem;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+.about-img{
+    width: 100%;
 }
 
 /* Servicios */
