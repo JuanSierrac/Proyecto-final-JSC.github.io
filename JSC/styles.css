@@ -238,7 +238,7 @@ footer {
   }
 
 /* Responsive */
-@media (max-width: 868px){
+@media (max-width: 768px){
 
     .container {
         width: 100%;
