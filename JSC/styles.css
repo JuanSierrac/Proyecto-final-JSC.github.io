@@ -211,24 +211,17 @@ section {
 /* Pie de página */
 footer {
     background: #e65c00;  
-    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  
     background: linear-gradient(to right, #F9D423, #e65c00); 
-    color: #fff;
     text-align: center;
-    padding: auto;
     font-size: 14px;
     
 }
 
-  .social-links a {
+  .red-social a {
     margin-bottom: 5px;
     color: #000000;
     font-size: 1.5rem;
     padding: 10px;
-  }
-  
-  a {
-    color: black;
   }
   
   a:visited {
