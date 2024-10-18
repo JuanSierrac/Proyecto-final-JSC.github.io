@@ -7,6 +7,7 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .container {
   background-color: white;
   padding: 20px;
@@ -14,24 +15,29 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 300px;
 }
+
 h2 {
   text-align: center;
   color: #333;
 }
+
 form {
   display: flex;
   flex-direction: column;
 }
+
 label {
   margin-top: 10px;
   color: #666;
 }
+
 input, select {
   padding: 8px;
   margin-top: 5px;
   border: 1px solid #ddd;
   border-radius: 3px;
 }
+
 button {
   margin-top: 15px;
   padding: 10px;
@@ -41,22 +47,27 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #0056b3;
 }
+
 .message {
   margin-top: 15px;
   text-align: center;
   color: #28a745;
 }
+
 .error {
   color: #dc3545;
 }
+
 .tab {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
 }
+
 .tab button {
   background-color: #f8f9fa;
   border: none;
@@ -67,13 +78,16 @@ button:hover {
   font-size: 16px;
   color: #007bff;
 }
+
 .tab button:hover {
   background-color: #e9ecef;
 }
+
 .tab button.active {
   background-color: #007bff;
   color: white;
 }
+
 #logoutSection {
   text-align: center;
 }
