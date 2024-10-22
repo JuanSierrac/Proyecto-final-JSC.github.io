@@ -39,7 +39,6 @@ nav {
     background-color: #c6af91;
     color: #fff;
     padding: 1rem 0;
-    margin: none;
 }
 
 .logo {
@@ -61,7 +60,7 @@ nav {
 
 .nav_container {
     align-items: center;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0;
     background: #e65c00;  
     background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  
     background: linear-gradient(to right, #F9D423, #e65c00); 
