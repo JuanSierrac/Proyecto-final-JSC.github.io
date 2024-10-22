@@ -39,6 +39,7 @@ nav {
     background-color: #c6af91;
     color: #fff;
     padding: 1rem 0;
+    margin: none;
 }
 
 .logo {
@@ -166,6 +167,7 @@ section {
     backface-visibility: hidden;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+    color: antiquewhite;
   }
 
 .Menu{
@@ -215,18 +217,17 @@ footer {
     background: linear-gradient(to right, #F9D423, #e65c00); 
     text-align: center;
     font-size: 14px;
-    
 }
 
   .red-social a {
     margin-bottom: 5px;
-    color: #000000;
+    color: antiquewhite;
     font-size: 1.5rem;
     padding: 10px;
   }
   
   a:visited {
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   a:hover {
