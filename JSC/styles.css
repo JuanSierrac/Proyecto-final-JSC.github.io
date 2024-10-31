@@ -166,7 +166,9 @@ section {
     backface-visibility: hidden;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
+    margin-block-end: 0.25rem;
+    margin-block-start: 0.25rem;
   }
 
 .Menu{
@@ -182,8 +184,10 @@ section {
 
 /* Reseñas */
 .reviews {
-    background-color: #f4f4f4;
+    background: #e65c00;  
+    background: linear-gradient(to right, #F9D423, #e65c00); 
     text-align: center;
+    margin-block-end: 0.25rem;
 }
 .review-grid {
     display: grid;
@@ -220,7 +224,7 @@ footer {
 
   .red-social a {
     margin-bottom: 5px;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     padding: 10px;
   }
